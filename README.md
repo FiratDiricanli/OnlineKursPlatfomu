@@ -1,32 +1,28 @@
-🎓 Online Kurs Platformu
-Bu proje, eğitmenlerin ders içerikleri oluşturabildiği, öğrencilerin ise bu içeriklere erişerek kendi öğrenme süreçlerini yönetebildiği kapsamlı bir E-Öğrenme Yönetim Sistemi (LMS) yazılımıdır.
+# 🎓 Online Kurs Platformu
 
-📚 Proje Vizyonu
-Eğitimin dijitalleşen dünyadaki ihtiyaçlarına profesyonel çözümler sunmayı hedefleyen bu uygulama; ders yönetimi, öğrenci takibi ve içerik organizasyonu gibi süreçleri tek bir platformda birleştirir. Yazılım, sürdürülebilir ve geliştirilebilir bir altyapı sunmak adına Nesne Tabanlı Programlama (OOP) prensipleriyle tasarlanmıştır.
+Bu proje, eğitmenlerin ders içerikleri oluşturabildiği, öğrencilerin ise bu içeriklere erişerek kendi öğrenme süreçlerini yönetebildiği kapsamlı bir **E-Öğrenme Yönetim Sistemi** yazılımıdır.
 
-🚀 Öne Çıkan Özellikler
-Kapsamlı Kurs Yönetimi: Yeni kursların oluşturulması, kategori bazlı sınıflandırılması ve içerik detaylarının düzenlenmesi.
+---
 
-Kullanıcı Rol Tanımlamaları: Eğitmen ve öğrenci rolleri için özelleştirilmiş erişim yetkileri ve işlem kapasiteleri.
+## 🚀 Özellikler
 
-Kayıt ve İlerleme Takibi: Öğrencilerin kurslara kayıt olması ve tamamladıkları ders içerikleri üzerinden ilerleme durumlarının izlenmesi.
+*   👨‍🏫 **Eğitmen Paneli:** Yeni kursların oluşturulması ve içerik detaylarının yönetimi.
+*   📝 **Kayıt ve İlerleme:** Öğrencilerin kurslara kayıt olması ve ders takibi.
+*   🗂️ **Kategorizasyon:** Kursların uzmanlık alanlarına göre filtrelenmesi.
+*   🔑 **Yetkilendirme:** Kullanıcı rollerine göre özelleştirilmiş erişim yetkileri.
 
-Dinamik İçerik Listeleme: Kursların popülerlik, kategori veya eğitmen bazlı filtrelenerek kullanıcıya sunulması.
+---
 
-Değerlendirme Modülü: Kurs sonu başarı durumunu takip eden temel puanlama veya katılım kontrol mekanizması.
+## 🛠️ Kullanılan Teknolojiler
 
-🛠️ Teknik Altyapı
-Programlama Dili: Python.
+*   **C# (Windows Forms)**
+*   **.NET Framework**
+*   **Nesne Tabanlı Programlama (OOP)**
 
-Mimari Yapı: Nesne Tabanlı Programlama (OOP).
+---
 
-Veri Yönetimi: Kurs, Kullanici, Egitmen ve Kayit gibi sınıflar arasındaki ilişkisel modelleme sayesinde sağlanan modüler yapı.
+## ⚙️ Kurulum ve Çalıştırma
 
-🔧 Kurulum ve Kullanım
-Projeyi yerel makinenize klonlayın veya indirin.
-
-Bilgisayarınızda Python 3.x ortamının kurulu olduğundan emin olun.
-
-Uygulamanın ana giriş modülünü (örneğin main.py) çalıştırın.
-
-Eğitmen veya öğrenci hesabı simülasyonu üzerinden platformu test etmeye başlayın.
+1.  **Solution Dosyasını Açın:** Visual Studio üzerinden projenin içindeki `.sln` dosyasına çift tıklayın.
+2.  **Derleme:** Üst menüden **Build > Build Solution** diyerek projenin hatasız derlendiğinden emin olun.
+3.  **Başlatın:** Yeşil **"Start"** butonuna veya **F5** tuşuna basarak uygulamayı çalıştırın.
